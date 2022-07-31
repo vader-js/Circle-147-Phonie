@@ -5,12 +5,8 @@ function startApp() {
   
     // pls remove the below and make some magic in here!
     console.log('make magic in here!');
-  
-    const header = document.querySelector('h2');
-    if(header) {
-      header.textContent = 'make some magic here!!';
-    }
-  };
+
+   
   
   // ======= DO NOT EDIT ============== //
   export default startApp;

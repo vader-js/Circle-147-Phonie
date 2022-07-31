@@ -1,19 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Name of chosen challenge</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phonie Challenge</title>
 
-    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
+
 </head>
-<body>
-    
-    <h2>make some magic here!!</h2>
 
-    <!-- // ============= EEND DO NOT EDIT ============== // -->
-    <script src="index.mjs" type="module"></script>
-    <!-- // ============= EEND DO NOT EDIT ============== // -->
+<body>
+
+
+
+  <div class="container">
+    <form>
+      <h4>Please enter your details below:</h4>
+      <div class="deets">
+        <div class="name">
+          <div class="form-input">
+            <label for="first_name">First Name</label>
+            <input type="text" name="first_name" id="first_name" class="first_name" placeholder="Enter first name"
+              required>
+          </div>
+          <div class="form-input">
+            <label for="first_name">Last Name</label>
+            <input type="text" name="last_name" id="last_name" class="last_name" placeholder="Enter last name" required>
+          </div>
+        </div>
+        <div class="form-input">
+          <label for="email">Email Address</label>
+          <input type="email" name="email" id="email" class="email" placeholder="Enter email" required>
+        </div>
+        <div class="form-input">
+          <label for="phone">Phone Number</label>
+          <input class="input" type="text" id="phone" placeholder="Phone Number" autocomplete="off" required>
+
+        </div>
+        <div class="form-input" id="img-icon">
+          <img id="zip" src="" alt="">
+          <img id="carrier" src="" alt="">
+          <p></p>
+        </div>
+
+      </div>
+      <div class="btn">
+        <button>Submit</button>
+      </div>
+    </form>
+  </div>
+  <script src="script.js"></script>
+  <!-- // ============= EEND DO NOT EDIT ============== // -->
+  <script src="index.mjs" type="module"></script>
+  <!-- // ============= EEND DO NOT EDIT ============== // -->
 </body>
+
 </html>
